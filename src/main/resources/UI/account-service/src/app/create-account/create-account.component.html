@@ -1,0 +1,57 @@
+<div id="loading" *ngIf="loading">
+    <img id="loading-image" src="assets/Loading_icon.gif" alt="Loading..." />
+</div>
+<div id="Confirm" *ngIf="confirm">
+
+    <div class="confirmpopup">
+<div style="text-align:center" class="content">
+<div>
+<img  src="../../assets/right.png" height="10%" width="10%" />
+</div>
+<div>
+<span>Account created successfully</span>
+</div>
+<div>
+<button type="button" class="btn btn-primary" (click)="confirmstatus()"  name="button">ok</button>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+<app-header></app-header>
+</div>
+<div class="container">
+ 
+    <div class="form-wrap">
+         <div class="form-wrap-inn">
+             <div class="frame">
+                 <div class="form-content">
+                     <div class="header">
+                         <i class="fa fa-eye"></i>
+                         <h2>Create Account</h2>
+                         
+                     </div>
+                     
+                     <div class="login-form">
+                         <form action="" class="form" #f="ngForm" novalidate>
+                           <div class="form-group">
+                            
+                             <input id="first" class="form-control" type="text"  [(ngModel)]="customerId"  name="customerId" placeholder="What is yourCustomer ID?" required />
+                           </div>
+                           
+                           <div class="form-group">
+                              
+                             <input id="color" class="form-control" type="number"  [(ngModel)]="initialCredit" name="initialCredit" placeholder="What is your Initial Credit?"  >
+                           </div>
+                           <diV class="form-group">
+                              <input id="color1" class="form-input" type="submit" (click)="createAccount()" value="Create" style="background-color: #a6f; color: white;">
+                           </diV>
+                         </form>
+                     </div>
+                     
+                 </div>
+             </div>
+         </div>
+    </div>
+   </div>

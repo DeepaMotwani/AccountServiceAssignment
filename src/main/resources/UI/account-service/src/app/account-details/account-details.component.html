@@ -1,0 +1,62 @@
+<div id="Errorscreen" *ngIf="errorscreen">
+
+    <div class="confirmpopup">
+<div style="text-align:center" class="content">
+<div>
+<img  src="../../assets/wrong.png" height="10%" width="10%" />
+</div>
+<div>
+<span>Data not found</span>
+</div>
+<div>
+<button type="button" class="btn btn-primary" (click)="errorstatus()"  name="button">ok</button>
+</div>
+</div>
+</div>
+</div>
+
+  <div>
+  <app-header></app-header>
+</div>
+  <div class="container" style="margin-top: 15px">
+      <div class="row spacebottom">
+          <div class="col-sm-12">
+            <div class="row">
+            <div class="col-sm-12">
+              <b>Show Customer Account Details</b>
+            </div>
+            <div class="col-sm-2">
+                <input class="form-control" type="text" [(ngModel)]="customerId"  placeholder="Customer Id">
+              </div>
+              <div class="col-sm-2">
+                <button type="button" (click)="getDetails()" class="btn btn-primary">View Details</button>
+                </div> 
+            </div>
+        </div>
+      
+    
+      <table *ngIf="cutomerData">
+          <!-- ADD HEADERS -->
+          <tr>
+              <th>Name</th>
+                  <th>Sirname</th>
+                      <th>Balancce</th>
+                      <th>Transaction</th>
+          </tr>
+    
+          <!-- BIND ARRAY TO TABLE -->
+          <tr>
+              <td>{{cutomerData?.customerData?.firstName}}</td>
+                  <td>{{cutomerData?.customerData?.lastName}}</td>
+                  <td>{{cutomerData?.customerData?.balance}}</td>
+                  <td><div *ngFor="let transaction of cutomerData?.transactionHistory">
+                    <span>Id: {{transaction.id}}</span><br/>
+                    <span>Date: {{transaction.transactionDate}}</span><br/>
+                    <span>DebitedFrom Account :{{transaction.debitedFrom}}</span><br/>
+                    <span>Credited To Account :{{transaction.creditedTo}}</span><br/>
+                    <span>Transaction Amount: {{transaction.transactionAmount}}</span><br/><hr/>
+                  </div></td>
+                     
+          </tr>
+      </table>
+  </div>

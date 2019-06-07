@@ -1,0 +1,66 @@
+<!-- 
+    <div class="custom-login">
+      <div class="wrapper">
+<div class="fadeIn first">
+
+
+
+</div>
+<form name="form" class="form-signin" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+  <div  class="fadeIn third" style="margin-top: 23px;" >
+  <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+       
+        <input type="text" class="form-control" name="username" [(ngModel)]="model.username" #username="ngModel" placeholder=" User name" required />
+        <div *ngIf="f.submitted && !username.valid" class="help-block"><span style="color:red">Username is required</span></div>
+    </div>
+  </div>
+  <div  class="fadeIn third">
+      <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !password.valid }">
+         
+          <input type="password" class="form-control" name="password" [(ngModel)]="model.password" #password="ngModel"  placeholder="Password" required />
+          <div *ngIf="f.submitted && !password.valid" class="help-block"><span style="color:red">Password is required</span></div>
+      </div>
+  </div>
+    <input type="submit" class="btn btn-primary" value="Login">
+    
+</form>
+
+
+
+</div>
+</div> -->
+<div class="container">
+ 
+    <div class="form-wrap">
+         <div class="form-wrap-inn">
+             <div class="frame">
+                 <div class="form-content">
+                     <div class="header">
+                         <i class="fa fa-eye"></i>
+                         <h2>Login</h2>
+                         
+                     </div>
+                     
+                     <div class="login-form">
+                         <form action="" class="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+                           <div class="form-group">
+                            
+                             <input id="first" class="form-input" type="text"  name="username" [(ngModel)]="model.username" #username="ngModel" placeholder=" User name"  placeholder="What is your UserName?" required />
+                           </div>
+                           
+                           <div class="form-group">
+                            
+                             <input id="color" class="form-input" type="password" placeholder="What is your Password?" name="password" [(ngModel)]="model.password" #password="ngModel" required />
+                           </div>
+                           <diV class="form-group">
+                              <input id="color1" class="form-input" type="submit" value="Submit" style="    background-color: #a6f;
+                              color: white;">
+                           </diV>
+                         </form>
+                     </div>
+                     
+                 </div>
+             </div>
+         </div>
+    </div>
+   </div>

@@ -1,0 +1,332 @@
+/* .login-box
+		{
+			height: 50%;
+			width: 30%;
+			border: 1px solid grey;
+			margin-left: 35%;
+			margin-top: 10%;
+			position: relative;
+      		box-shadow: 21px 12px 24px 10px rgba(0, 0, 0, .5);
+      		background: #dadada;
+		}
+		.login-header
+		{
+			text-align: center;
+			font-family: "vardhana",cursive;
+			font-size: 28px;
+            background:skyblue;			
+            color:#fff;
+			position: relative;
+      		box-shadow: 1px 3px 14px  rgba(0, 0, 0, .5);
+		}
+		.login-body
+		{
+			padding: 20px;
+            line-height: 2;
+            background-color: antiquewhite;
+        }
+        .class3
+        {
+            margin-left: 132px;
+        } */
+        
+body {
+    font-family: "sofia-pro","Sofia Pro",sans-serif;
+    background-color: #fefcee;
+  }
+  
+  
+  @media screen and (min-width: 1020px){
+  
+  .form-wrap{
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin-top: -450px;
+    padding-top: 30px;
+  }    
+    
+  .form-wrap {
+    top: 50%;
+    left: 50%;
+  }
+  
+  .form-wrap-inn{
+    padding: 20px;
+    -webkit-box-shadow: 0px 10px 122px 0px rgba(170,102,255,0.23);
+    box-shadow: 0px 10px 122px 0px rgba(170,102,255,0.23);
+  }
+  
+  .form-content {
+    padding: 20px 20px 30px 20px;
+  }
+  
+  }
+  
+  .form-wrap {
+    position: absolute;
+    /* margin: 0 auto; */
+    margin-top: -190px;
+    max-width: 650px;
+    width: 100%;
+  }
+  .form-wrap-inn{
+    position: relative;
+    background-color: #fff;
+    background-repeat: repeat;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  
+  .frame {
+    position: relative;
+    border:3px solid  #a6f;
+    -webkit-transition: border-color 300ms ease;
+    transition: border-color 300ms ease;
+  }
+  
+  .header{
+    text-align:center;
+  }
+  
+  .header i{
+    color: #a6f;
+    font-size: 30px;
+  }
+  
+  .header h2{
+    color: #a6f;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .header p{
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .header p a{
+    color: #a6f;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .login-form {
+    max-width: 412px;
+    margin: 30px auto;
+  }
+  
+  .form-label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #999;
+    background-color: #fff;
+    z-index: 10;
+    transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out;
+    transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+  }
+  
+  .form-input {
+    position: relative;
+    padding: 12px 0px 5px 0;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 1px 0 0 #e5e5e5;
+    transition: box-shadow 150ms ease-out;
+  }
+  .main{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: #F0F0F0;
+   }
+   .panel-table .panel-body{
+      padding:0;
+      font-size: 11px;
+    }
+  
+  
+  
+  .commenthistory{
+    font-size: 12px;
+  }
+  
+  
+  .wordwrap {
+    word-wrap:break-word;
+  }
+  
+  .wordwrapopup {
+    word-wrap:break-word;
+  }
+  
+  p-datatable .ui-datatable
+  {
+    background-color: #E1EDF5;
+  
+  border: 2px solid;
+  border-color: #026da9;
+  }
+  
+  p-datatable .ui-datatable-tablewrapper
+  {
+    cursor: pointer;
+  width: auto;
+  }
+  
+  #EmployeeDetails {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: block;
+        opacity: 2;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+        text-align: left;
+        font-size: 11px;
+      }
+  
+  
+      #Errorscreen {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: fixed;
+            display: block;
+            opacity: 1;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 9999;
+            text-align: left;
+            font-size: 11px;
+          }
+  
+          #Confirm {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: fixed;
+                display: block;
+                opacity: 1;
+                background-color: rgba(0, 0, 0, 0.7);
+                z-index: 9999;
+                text-align: left;
+                font-size: 11px;
+              }
+  
+  
+              .confirmpopup {
+           margin: 20px auto;
+           padding: 20px;
+           background: #fff;
+           border-radius: 0px;
+           width: 30%;
+           position: relative;
+           transition: all 5s ease-in-out;
+          }
+  
+      .popup {
+   margin: 10px auto;
+   padding: 20px;
+   background: #fff;
+   border-radius: 0px;
+   width: 70%;
+   position: relative;
+   transition: all 5s ease-in-out;
+  }
+  
+  .confirmpopup .content {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  
+  .popup .content {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+  
+  #loading {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+      display: block;
+      opacity: 0.7;
+      background-color: #fff;
+      z-index: 9999;
+      text-align: center;
+    }
+  
+    #loading-image {
+      text-align: center;
+     top: 0;
+     left: 0;
+     z-index: 100;
+    }
+    @media only screen and (max-width: 800px) {
+  .main
+  {
+    margin-top: 20%;
+  }
+  
+    }
+  
+    @media only screen and (max-width: 400px) {
+  .main
+  {
+    margin-top: 30%;
+  }
+  
+    }
+  
+  
+  
+    @media only screen and (min-width:1200px) {
+      .container {
+          max-width: 1240px!important;
+      }
+    }
+  
+  
+    .spacetop{
+      padding-top: 2%;
+    }
+  
+    .fontsize12{
+      font-size:12px;
+    }
+  
+  
+  
+  
+    #btnSearch,
+  #btnClear{
+      display: inline-block;
+      vertical-align: top;
+  }
+  .selectcontrol{
+    width: auto;
+  }
+  @media only screen and (max-width: 800px) {
+    .main {
+      width: auto;
+    }
+    .spacetop
+    {
+      width: auto;
+    }
+  }
+  

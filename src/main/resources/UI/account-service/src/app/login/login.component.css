@@ -1,0 +1,250 @@
+/* 
+   .custom-login{
+    min-height: 100vh;
+  
+    background-color: #170F26;
+    background-size: cover;
+  }
+  .wrapper {
+    padding-top: 7%;
+  
+  }
+
+
+  .form-signin {
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #DCDFE4;
+    border: 1px solid#DCDFE4;
+    
+    width: 27%;
+    height: auto;
+  }
+  .custom-login .wrapper .form-signin .col-xs-12.alignCnter{
+    text-align: center;
+  }
+  .custom-login .wrapper .form-signin .col-xs-12 .logo{
+  
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 12px;
+    height: auto;
+    padding: 10px 2px 7px 10px;
+    border: 1px;
+    color:black;
+		font-family:Sans-serif;
+		font-color:#black;
+		font-weight: bold;
+   ;
+  }
+
+
+.labeltext{
+	color:white;
+	font-weight: bold;
+	font-family: Sans-serif;
+	font-size: 12px;
+}
+
+  input[type="text"]::-webkit-input-placeholder,input[type="password"]::-webkit-input-placeholder,select::-webkit-input-placeholder{
+  
+    color:grey;
+
+  }
+  input[type="text"]::-moz-placeholder,input[type="password"]::-moz-placeholder,select::-moz-placeholder {
+   
+    color: grey;
+   ;
+  }
+  input[type="text"]:-ms-input-placeholder,input[type="password"]:-ms-input-placeholder,select:-ms-input-placeholder {
+  
+    color: grey;
+   ;
+  }
+  input[type="text"]:-moz-placeholder,input[type="password"]:-moz-placeholder,select:-moz-placeholder {
+   
+    color: grey;
+   ;
+  }
+  .custom-login input[type="text"] {
+    margin-bottom: 20px;
+    background-size: 15px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 26px;
+  }
+  .custom-login input[type="password"] {
+    margin-bottom: 20px;
+    background-size: 15px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 26px;
+  }
+  .btn-primary{
+    color: #170F26;
+  }
+  .footer-outer div{
+    color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px 100px;
+    font-size: 9px;
+    background: #003C58;
+    width: 100%;
+  }
+  .custom-login .btn-primary{
+ 
+  width: 100%;
+  }
+  .custom-login .alert{
+    padding: 7px 10px;
+    font-size: 12px;
+    border-radius: 0;
+  }
+  .custom-login .alert p img{
+    margin-right: 2px;
+    height: 11px;
+  }
+
+  .help-block {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.custom-login select {
+	margin-bottom: 20px;
+	background-size: 10px;
+
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat 230px #005a8a;
+
+}
+
+a {
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .form-signin {
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #DCDFE4;
+    border: 1px solid#DCDFE4;
+    
+    width: 90%;
+    height: 300px;
+  }
+} */
+
+
+body {
+  font-family: "sofia-pro","Sofia Pro",sans-serif;
+  background-color: #fefcee;
+}
+
+
+@media screen and (min-width: 1020px){
+
+.form-wrap{
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  margin-top: -450px;
+  padding-top: 30px;
+}    
+  
+.form-wrap {
+  top: 50%;
+  left: 50%;
+}
+
+.form-wrap-inn{
+  padding: 20px;
+  -webkit-box-shadow: 0px 10px 122px 0px rgba(170,102,255,0.23);
+  box-shadow: 0px 10px 122px 0px rgba(170,102,255,0.23);
+}
+
+.form-content {
+  padding: 20px 20px 30px 20px;
+}
+
+}
+
+.form-wrap {
+  position: absolute;
+  /* margin: 0 auto; */
+  margin-top: -190px;
+  max-width: 650px;
+  width: 100%;
+}
+.form-wrap-inn{
+  position: relative;
+  background-color: #fff;
+  background-repeat: repeat;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.frame {
+  position: relative;
+  border:3px solid  #a6f;
+  -webkit-transition: border-color 300ms ease;
+  transition: border-color 300ms ease;
+}
+
+.header{
+  text-align:center;
+}
+
+.header i{
+  color: #a6f;
+  font-size: 30px;
+}
+
+.header h2{
+  color: #a6f;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header p{
+  color: #333;
+  font-size: 18px;
+}
+
+.header p a{
+  color: #a6f;
+}
+
+.form-group {
+  position: relative;
+}
+
+.login-form {
+  max-width: 412px;
+  margin: 30px auto;
+}
+
+.form-label {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: #999;
+  background-color: #fff;
+  z-index: 10;
+  transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+  transition: transform 150ms ease-out, font-size 150ms ease-out;
+  transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out;
+}
+
+.form-input {
+  position: relative;
+  padding: 12px 0px 5px 0;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 1px 0 0 #e5e5e5;
+  transition: box-shadow 150ms ease-out;
+}
