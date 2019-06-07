@@ -1,0 +1,332 @@
+{
+	"id": "507d9552-92c9-6b20-a17d-43c69309e53c",
+	"name": "AddCustomers",
+	"description": "",
+	"order": [
+		"396eaf5e-92ef-d8b2-fdca-5f6716667950",
+		"b75fe5cd-fe77-f339-17e3-c76339ed7e28",
+		"aecd72d3-8622-0321-d544-98cb9f2b672b",
+		"125b350b-deb4-313e-2ffc-76d1a9e741cb",
+		"fa2ee3e0-b012-2008-1c70-45acbad28155",
+		"77ed55bf-c4b2-f78c-980f-7bc191828171",
+		"6da8760a-dc79-9eb4-3b2a-780028ad8c5c",
+		"f223e50a-aea0-04df-7f8a-ed19c1c8a4f5",
+		"c46e55c3-d12e-cadb-650d-8d2a6f9dc46d",
+		"b12ba46e-0ae9-5e33-b318-326b1ffacc37"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1559924046046,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "125b350b-deb4-313e-2ffc-76d1a9e741cb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924327913,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Dona1234\",\r\n\t\"firstName\":\"Dona\",\r\n\t\"lastName\":\"Specter\",\r\n\t\"balance\":3090,\r\n\t\"accountNumber\":8911\r\n}"
+		},
+		{
+			"id": "396eaf5e-92ef-d8b2-fdca-5f6716667950",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559924152358,
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"customerId\":\"John1234\",\r\n\t\"firstName\":\"John\",\r\n\t\"lastName\":\"Dave\",\r\n\t\"balance\":2000.00,\r\n\t\"accountNumber\":1111\r\n}"
+		},
+		{
+			"id": "6da8760a-dc79-9eb4-3b2a-780028ad8c5c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924513761,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Alice1234\",\r\n\t\"firstName\":\"Alice\",\r\n\t\"lastName\":\"Johnson\",\r\n\t\"balance\":5000,\r\n\t\"accountNumber\":1221\r\n}"
+		},
+		{
+			"id": "77ed55bf-c4b2-f78c-980f-7bc191828171",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924473834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Bryan1234\",\r\n\t\"firstName\":\"Bryan\",\r\n\t\"lastName\":\"Dave\",\r\n\t\"balance\":4000,\r\n\t\"accountNumber\":1911\r\n}"
+		},
+		{
+			"id": "aecd72d3-8622-0321-d544-98cb9f2b672b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924285078,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Claire1234\",\r\n\t\"firstName\":\"Claire\",\r\n\t\"lastName\":\"Ross\",\r\n\t\"balance\":3070,\r\n\t\"accountNumber\":8761\r\n}"
+		},
+		{
+			"id": "b12ba46e-0ae9-5e33-b318-326b1ffacc37",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924669399,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Tywin1234\",\r\n\t\"firstName\":\"Tywin\",\r\n\t\"lastName\":\"Dave\",\r\n\t\"balance\":3007,\r\n\t\"accountNumber\":1911\r\n}"
+		},
+		{
+			"id": "b75fe5cd-fe77-f339-17e3-c76339ed7e28",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924223523,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Richard1234\",\r\n\t\"firstName\":\"Richard\",\r\n\t\"lastName\":\"Davis\",\r\n\t\"balance\":30000,\r\n\t\"accountNumber\":1561\r\n}"
+		},
+		{
+			"id": "c46e55c3-d12e-cadb-650d-8d2a6f9dc46d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924599251,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Bob1234\",\r\n\t\"firstName\":\"Bob\",\r\n\t\"lastName\":\"Dave\",\r\n\t\"balance\":3500,\r\n\t\"accountNumber\":2211\r\n}"
+		},
+		{
+			"id": "f223e50a-aea0-04df-7f8a-ed19c1c8a4f5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924554188,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Joy1234\",\r\n\t\"firstName\":\"Joy\",\r\n\t\"lastName\":\"Greene\",\r\n\t\"balance\":7500,\r\n\t\"accountNumber\":1145\r\n}"
+		},
+		{
+			"id": "fa2ee3e0-b012-2008-1c70-45acbad28155",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "507d9552-92c9-6b20-a17d-43c69309e53c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/AccountService/api/addCustomerDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1559924432520,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"customerId\":\"Luis1234\",\r\n\t\"firstName\":\"Luis\",\r\n\t\"lastName\":\"Litt\",\r\n\t\"balance\":9000,\r\n\t\"accountNumber\":6511\r\n}"
+		}
+	]
+}
